@@ -1,6 +1,6 @@
-# PDF Signing Script
+# PDF Signing Script with PSC Valid
 
-This script is designed to handle the process of sending a push notification for authorization, verifying the push, obtaining an access token, and signing a PDF document using the obtained token.
+This script is designed to handle the process of sending a push notification for authorization, verifying the push, obtaining an access token, and signing a PDF document using the obtained token with PSC Valid.
 
 ## Main Steps
 
@@ -9,6 +9,11 @@ This script is designed to handle the process of sending a push notification for
 3. Verify the status of the push notification authorization.
 4. Obtain an access token using the authorization code.
 5. Sign a PDF document and save the signed version.
+
+## Documentation
+
+For more details, refer to the official PSC Valid API documentation:  
+[PSC Valid API Documentation](https://valid-sa.atlassian.net/wiki/spaces/PDD/pages/958365697/Manual+de+Integra+o+com+VIDaaS+-+Certificado+em+Nuvem)
 
 ## Dependencies
 
